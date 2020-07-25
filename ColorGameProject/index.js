@@ -64,14 +64,14 @@ for(var i = 0; i < squares.length; i++){
 		var clickedColor = this.style.backgroundColor;
 		//compare color to pickedColor
 		if(clickedColor === pickedColor) {
-			messageDisplay.textContent="Correct!";
+			messageDisplay.textContent="CORRECT!";
 
 			resetButton.textContent="play again?";
 			changeColors(clickedColor);
 			h1.style.backgroundColor=clickedColor;
 		} else {
 			this.style.backgroundColor="#232323";
-			messageDisplay.textContent="try again";
+			messageDisplay.textContent="Try Again";
 		}
 	});
 }
